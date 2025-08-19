@@ -2,7 +2,6 @@ name: my first workflow
 on: push
 jobs:
   first_job:
-    name: This is first job
     runs-on: ubuntu_latest
     steps:
     - name: welcome message
